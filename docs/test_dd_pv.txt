@@ -1,0 +1,7 @@
+$ sudo sync; echo 3 | sudo tee /proc/sys/vm/drop_caches; dd if=~/tmpfs/source.iso bs=1M count=10240 | pv > ~/tmpfs/borgfs_mnt/testfile.dd
+3
+763+0 records in[ 645MiB/s] [   <=>                                                                                                                                                          ]
+763+0 records out
+ 763MiB 0:00:01 [ 662MiB/s] [      <=>                                                                                                                                                       ]
+800063488 bytes (800 MB, 763 MiB) copied, 1,17534 s, 681 MB/s
+

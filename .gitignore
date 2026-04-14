@@ -1,0 +1,64 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# C specific
+.cache/
+compile_commands.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE specific (VSCode, JetBrains, Vim, etc)
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# BorgFS specific build output and test data
+borgfs
+borgfs-fastcdc
+bench_crc_blake
+test_data/
+mount_point/
+*.old
+
+# Tools
+tools/gc
+tools/scrub
+
+
+# Ignore local configuration
+.env
+config.local
+
